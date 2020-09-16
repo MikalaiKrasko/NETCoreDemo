@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ogorodik.DataProvider\Ogorodik.DataProvider.csproj" />
+    <ProjectReference Include="..\Ogorodik.ViewModels\Ogorodik.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

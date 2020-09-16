@@ -1,0 +1,18 @@
+﻿@model List<Ogorodik.ViewModels.OrderViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">
+        Ogorodik.by
+    </h1>
+    <p>Organic food store.</p>
+</div>
+@foreach (var order in Model)
+{
+    <p>@order.Name, @order.Phone</p>
+}
+<img src="~/images/ovoshchi_i_frukty_v_profilaktike_zabolevanij — копия.jpg" />
+
+
