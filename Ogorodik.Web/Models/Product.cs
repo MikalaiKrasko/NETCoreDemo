@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Ogorodik.Web.Models
+﻿namespace Ogorodik.Web.Models
 {
     public class Product
     {

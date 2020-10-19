@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Ogorodik.ViewModels
+﻿namespace Ogorodik.ViewModels
 {
     public class OrderViewModel
     {

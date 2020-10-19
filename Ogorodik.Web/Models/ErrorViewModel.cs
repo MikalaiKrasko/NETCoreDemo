@@ -1,5 +1,3 @@
-using System;
-
 namespace Ogorodik.Web.Models
 {
     public class ErrorViewModel

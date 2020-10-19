@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Ogorodik.DataProvider.Models
+﻿namespace Ogorodik.DataProvider.Models
 {
     public class Product
     {

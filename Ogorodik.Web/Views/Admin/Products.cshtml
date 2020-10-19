@@ -1,0 +1,11 @@
+﻿@model List<Ogorodik.ViewModels.ProductViewModel>
+@{
+    ViewData["Title"] = "Products List";
+}
+<h1>@ViewData["Title"]</h1>
+
+
+@foreach (var product in Model)
+{ 
+    <p>@product.Name </p>
+}
