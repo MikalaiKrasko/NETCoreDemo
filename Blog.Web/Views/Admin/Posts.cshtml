@@ -1,0 +1,28 @@
+﻿@model List<Blog.ViewModels.Blog.PostViewModel>
+@{
+    ViewData["Title"] = "Posts";
+}
+<h1>@ViewData["Title"]</h1>
+
+<table class="table table-dark">
+    <thead>
+        <button type="button" class="btn btn-success">New</button>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Author</th>
+            <th scope="col">Title</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var post in Model)
+        {
+            <tr>
+                <th scope="row">@post.Id </th>
+                <td>@post.Author</td>
+                <td>@post.Title</td>
+                <td><button type="button" class="btn btn-success">Edit</button></td>
+                <td><button type="button" class="btn btn-danger">Delete</button></td>
+            </tr>
+        }
+    </tbody>
+</table>
