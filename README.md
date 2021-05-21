@@ -1,2 +1,2 @@
-# OGORODIK
-Quality food store 
+# Blog
+Your posts 
